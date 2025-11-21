@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Ahta's SellingBin RP",
+    "description": "Resource pack untuk Ahta's SellingBin (kompatibel Friendly Fishing)",
+    "uuid": "6cf13712-2d73-47ce-9106-a4591c9e3ba6",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "156b53ff-4420-4dce-9ed0-05aea2f5c1e2",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Ahta"],
+    "license": "MIT"
+  }
+}
