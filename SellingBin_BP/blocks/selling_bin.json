@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "aha:selling_bin"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "selling_bin",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "minecraft:destroy_time": 1,
+      "minecraft:explosion_resistance": 10,
+      "minecraft:friction": 0.6,
+      "minecraft:container": {
+        "inventory_size": 9,
+        "container_type": "container"
+      },
+      "minecraft:on_interact": {
+        "event": "aha:open_menu",
+        "condition": "q.is_player"
+      }
+    },
+    "events": {
+      "aha:open_menu": {
+        "run_command": {
+          "command": [
+            "event entity @initiator aha:open_menu_proxy"
+          ]
+        }
+      }
+    }
+  }
+}
