@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "aha:selling_bin"
+    },
+    "components": {
+      "minecraft:icon": "textures/blocks/selling_bin",
+      "minecraft:creative_category": {
+        "category": "construction"
+      }
+    }
+  }
+}
